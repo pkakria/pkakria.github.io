@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8" />
+      <title>263P Collaborative Reading Website</title>
+      <link rel="stylesheet" href="style/collabBookStyle.css">
+      <meta name="viewport" content="width=device-width, initial-scale=0.68">
+      <!-- CSS only -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" crossorigin="anonymous">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <nav id="navigation" class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">SWE 263 project</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+	            <a class="nav-link" href="#About">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#initIdea">Initial Idea</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#CompetitorAnalysis">Competitors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Personas">User Personas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Evaluations">Evaluations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Prototypes">Prototypes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#reflections">Reflections</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    <div class="wrapper">
+      <header>
+        <h1 >UX/UI Design - CollaborativeReading App</h1>
+        <h2><em>"Books are the most loyal and trusted friends you can ever have!"</em></h2>
+        <!--<h3 style="color:rgb(53, 50, 50); font-size: 15px;" >This project has been designed as a part of 263P course</h3>-->
+      </header>
+      <div id= "About">
+        <section class="section1">
+          <div id="firstSection">
+            <img src="images/title.jpg" alt="“Books are the most loyal and trusted friends you can ever have”."/>
+            <h2>About</h2>
+            <p>  Today people are
+                  reading lesser books than before, reading a book to the end requires commitment of
+                  time and attention which is difficult to give when social life is disconnected from a digital
+                  book reading experience. This leads to many unfinished books and less enthusiasm in
+                  the habit of reading. Therefore, people might not be fully engaged in reading their
+                  books. <br/> A system which could help users to provide an environment where they can share their thoughts on different book topics and
+                  have conversations with other book readers. Such an environment could help people
+                  stay more focused on the book they are reading by making them more enthusiastic
+                  about the reading activity.
+            </p>
+          </div>
+        </section>
+      </div>
+
+      <section class="section2">
+        <div id="initIdea">
+          <h2>Initial Idea</h2>
+          <div id="initial-idea">
+            <img src="images/initIdea.jpg" alt="The images shows the initial idea"/>
+          </div>   
+        </div>
+
+        <!--<div id="steps">
+          <h2 >Our steps to design the app</h2>
+          <h3></h3>
+        </div>-->
+
+        <div id = "CompetitorAnalysis">
+          <h2>Competitors</h2>
+          <p>We did three competitive analysis during the early stage of designing.</p>
+          <h3>Google Play Books</h3>
+          <p><a href="https://play.google.com/store/books" target="_blank">Google Play Books</a> 
+            provides users their next books to read, add bookmarks, change the display layout, add personal notes, search texts, and change chapters easily while they are reading.The system has functions that allow readers to make notes, obtain translations, change themes, go to different chapters, change textviews, etc. Readers can go to each chapter easily by selecting the page numbers. They can adjust the font and background of the pages and also add bookmarks to the book. We decided to incorporate these two features of bookmarks and change the background of the reading page in our project.
+          </p>
+          <h3>Kindle</h3>
+          <p><a href="https://en.wikipedia.org/wiki/Amazon_Kindle" target="_blank">Kindle</a> 
+            is a small, lightweight and portable device, a huge number of books can be stored on it. Readers can go through and read different books on this small device or on the Kindle app from their phone and can annotate or bookmark the contents whenever something catches their attention. In our system, we want to incorporate the book search options for the users to find their favorite books. However, Kindle doesn’t let different users collaborate on one book, and it doesn’t provide a social environment for its users. Therefore, our system attempts to fix that by providing a platform where readers can collaborate and share their thoughts.            
+          </p>
+          <h3>Goodreads</h3>
+          <p><a href="https://www.goodreads.com/" target="_blank">Goodreads</a> 
+            provides the flexibility to its users to review their favorite books stored in their shelves online anywhere and anytime. Its user base has grown to 20 millions users up to now. It gives a platform for readers to share their book review and for other users to read these reviews and make the decision on the next book to read, it provides the sense of community by running reading challenges, compiling best books lists under different categories. Since Goodreads users feel a sense of positivity after reading the friends comments on their reads, we attempt to come up with such a feature to help our users to get this positive feeling by sharing the unread part from their reads and motivating their friends to read.
+          </p>
+        </div>
+
+        <div id = "Personas">
+          <h2>User Personas</h2>
+          <p>To identify the user’s needs of our study, we have conducted user research which
+            includes interviews with 9 users ranging from active readers to infrequent readers. The
+            aim of these interviews was to find out their reading habits, motivation around
+            choosing a book, tracking what they have read and want to share with their friends
+            and family and what challenges they faced during reading.</p>
+          <div class="PictureDiv row">
+            
+            <div class="personas col-xl-6 col-md-12">
+              <figure id="persona1">
+                  <img src="images/Persona1png.png" 
+                      alt="first persona"/>
+              </figure>
+            </div>
+            
+
+            <div class="personas col-xl-6 col-md-12">
+              <figure id="persona2">
+                  <img src="images/Personas2.png" 
+                      alt="second persona" />
+              </figure>
+            </div>
+          
+          </div>
+
+          <div class="PictureDiv row">
+            
+            <div class="personas col-xl-6 col-md-12">
+              <figure id="persona3">
+                  <img src="images/Personas3.png" 
+                      alt="third persona" />
+              </figure>
+            </div>
+
+            <div class="personas col-xl-6 col-md-12">
+              <figure id="persona4">
+                  <img src="images/Personas4.png" 
+                      alt="fourth persona" />
+              </figure>
+            </div>
+          
+          </div>
+          
+          <div class="PictureDiv">
+              <figure class="users-pics">
+                  <img src="images/users.png" alt="" />
+              </figure>
+          </div>
+        
+        </div>
+
+        <h3>Learnings from user study</h3>
+        <ul>
+          <li> 
+            Many readers prefer reading in a group for different reasons
+          </li>
+          <li>
+            Students like to read together and share the insights among them
+          </li>
+          <li>
+            People find their next book to read through online book recommendations
+          </li>
+          <li>
+            Some people prefer hard copies because they find online reading interfaces complex
+          </li>
+        </ul>
+
+        <h3>Initial Sketches</h3>
+        <div class="PictureDiv">
+            <figure class="sketches-pics">
+                <img src="images/sketch3.jpg" alt=""/>
+                <figcaption class="center">Sketches for wireframe</figcaption>
+            </figure>
+        </div>
+
+        <div id = "Evaluations">
+
+          <h2>Evaluations</h2>
+          <p>After completing all the interviews, we conducted qualitative data analysis using <a href="https://www.nngroup.com/articles/thematic-analysis/" target="_blank"> Thematic analysis</a>.
+          We used the affinity diagram technique to synthesize the findings and uncover insights from the data that
+          helped us to identify user needs. From each interview, we created notes and thoughts using sticky notes on <a href="https://miro.com/app/dashboard/" target="_blank">Miro
+          </a> and grouped each of them into four user types. 
+          This grouping helped us to identify the behavioral patterns of user needs.</p>
+          <div class="PictureDiv row">
+            <div class="pics_init col-xl-6 col-lg-12">
+              <figure class="sketches-pics">
+                  <img src="images/sketch1.png" alt="First affinity diagram" />
+                  <figcaption>Affinity Diagrams 1</figcaption>
+              </figure>
+            </div>
+            
+            <div class="pics_init col-xl-6 col-lg-12">
+              <figure class="sketches-pics">
+                  <img src="images/sketch2.png" alt="second affinity diagram" />
+                  <figcaption>Affinity Diagrams 2</figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <p>
+              We have done user and heuristic evaluation to find the usability issues and we came up with the medium-fidelity and high-fidelity Mockups, as shown below.
+          </p>
+          <div id="iterationPic">
+              <figure>
+                  <img src="images/iterations.jpg" alt="example of evaluation process" />
+                  <figcaption class="center">Iteration During evalution</figcaption>
+              </figure>
+          </div>
+
+        </div>  
+
+        <div id = "Prototypes">
+          <h2>Prototypes</h2>
+          <h3>Initial Prototypes</h3>
+            <div class="PictureDiv row">
+              <div class="pics_init col-lg-3 col-md-6">
+                <figure id="pic1">
+                    <img src="images/HomePage_init.png" 
+                        alt="Screenshot from the main page of the application after login from initial design" />
+                    <figcaption>Our Initial design of our main page after log in</figcaption>
+                </figure>
+              </div>
+              
+              <div class="pics_init col-lg-3 col-md-6">
+                <figure id="pic2">
+                    <img src="images/myGroup_init.png" 
+                        alt="Screenshot from the My Group page of the application from initial design" />
+                    <figcaption>Our Initial design of our "My Group" page</figcaption>
+                </figure>
+              </div>
+
+              <div class="pics_init col-lg-3 col-md-6">
+                  <figure id="pic3">
+                      <img src="images/myBooks_init.png" 
+                          alt="Screenshot from the MyBook page which shows the list of the user's book from initial design" />
+                      <figcaption>Our Initial design of our "MyBook" page (formerly known as List of Books)</figcaption>
+                  </figure>
+              </div>
+
+              <div class="pics_init col-lg-3 col-md-6">
+                  <figure id="pic4">
+                      <img src="images/bookView_init.png" 
+                          alt="Screenshot from the Book View where users can read and add highlights or comments from initial design" />
+                      <figcaption>Our Initial design of our "Book View" page</figcaption>
+                  </figure>
+              </div>
+            </div>
+            <p>To look at the prototype of our initial design interactively, you can click on the link: 
+                <a href="https://www.figma.com/proto/innmEVcxPyrC9LQ6DgX4yM/User-Stories?page-id=0%3A1&node-id=56%3A49&scaling=scale-down" target="_blank">Initial Desing Prototype on Figma</a>  
+            </p>
+              
+            <h3>Final Prototypes</h3>
+            <div class="PictureDiv row">
+              <div class="pics_final col-lg-3 col-md-6">
+                <figure id="picf1">
+                    <img src="images/HomePage_final.png" 
+                        alt="Screenshot from the main page of the application after login from final design" />
+                    <figcaption>Our final design of our main page after log in</figcaption>
+                </figure>
+              </div>
+              
+              <div class="pics_init col-lg-3 col-md-6">
+                <figure id="picf2">
+                    <img src="images/myGroup_final.png" 
+                        alt="Screenshot from the My Group page of the application from final design" />
+                    <figcaption>Our final design of our "My Group" page</figcaption>
+                </figure>
+              </div>
+
+              <div class="pics_init col-lg-3 col-md-6">
+                  <figure id="picf3">
+                      <img src="images/myBooks_final.png" 
+                          alt="Screenshot from the MyBook page which shows the list of the user's book from final design" />
+                      <figcaption>Our final design of our "MyBook" page (formerly known as List of Books)</figcaption>
+                  </figure>
+              </div>
+
+              <div class="pics_init col-lg-3 col-md-6">
+                  <figure id="picf4">
+                      <img src="images/bookView_final.png" 
+                          alt="Screenshot from the Book View where users can read and add highlights or comments from final design" />
+                      <figcaption>Our final design of our "Book View" page</figcaption>
+                  </figure>
+              </div>
+            </div>
+            <p>To look at the prototype of our final design interactively, you can click on the link: 
+              <a href="https://www.figma.com/proto/innmEVcxPyrC9LQ6DgX4yM/User-Stories?page-id=626%3A68&node-id=626%3A376&viewport=352%2C220%2C0.12533512711524963&scaling=scale-down" target="_blank">Final Desing Prototype on Figma</a>  
+            </p>
+          </div>
+          
+          <div id="reflections">
+            <h2>Reflections</h2>
+            <ul>
+              <li> 
+                  User research provided us what the users really want in our system and how they think about collaborative reading.
+              </li>
+              <li>
+                Targeting potentional user for our system in the intial state was challenging for us.
+              </li>
+              <li>
+                Some people still find it cumbersome to read on mobile devices due to their small sizes and prefer hard-copies.
+              </li>
+            </ul>
+          </div>
+      </section>
+    </div>
+
+    <footer>
+        <div class="github row">
+          <div class = "col-sm-12 col-md-4">
+            <a href="https://github.com/yuchen-hu-choco">
+							<img src="images/github.png" class="github-img" alt="Yuchen's Github link"/>
+							Yuchen Hu
+						</a>
+          </div>
+
+          <div class = "col-sm-12 col-md-4">
+            <a href="https://github.com/pkakria">
+							<img src="images/github.png" class="github-img" alt="Priyanka's Github link"/>
+              Priyanka Kakria
+						</a>
+          </div>
+        
+    
+          <div class = "col-sm-12 col-md-4">
+              <a href="https://github.com/netemadi">
+                <img src="images/github.png" class="github-img" alt="Nooshin's Github link"/>
+                Nooshin Etemadinazari
+              </a>
+          </div>
+        </div>
+          
+        &copy; 2021 , UCI SWE263
+    </footer> 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    
+  </body>
+</html>
+
+

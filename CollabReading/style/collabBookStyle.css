@@ -1,0 +1,241 @@
+header, section, footer, article, nav, figure, figcaption{
+    display: block;
+}
+
+body {
+    color: #f7f3f3;
+    background-color:rgb(255, 255, 255);
+    background-position: center;
+    /* font-family: Georgia, Times, serif; */
+    font-family:'Gill Sans', 'Gill Sans MT', Times, 'Trebuchet MS', sans-serif;
+    color: rgb(78, 75, 75);
+    font-size:20px;
+    line-height: 1.4em;
+    margin: 0px;
+    /* background-image: url("../images/blue-wallpaper.jpg"); */
+}
+
+.wrapper {
+    width: 90vw;
+    margin: 50px auto 20px auto;
+    /* border: 2px solid #f0e9e9; */
+    background-color: #ffffff;
+}
+
+header{
+    background-color: rgb(248, 252, 252);
+    color: #fcfcfc;
+    padding-top: 30px;
+    padding-left: 10px;
+    min-height: 80px;
+    border: #f8fcfc 3px solid;
+  }
+
+header h1{
+    color:rgb(119, 16, 16);
+    text-align: center;
+    font-size:40px;
+}
+
+header h2{
+    text-align: center; 
+    color: rgb(11, 87, 114);
+}
+
+#firstSection img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40vw;
+    height: auto;
+}
+
+#initial-idea img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
+    height: auto;
+}
+
+#iterationPic img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+    height: auto;
+}
+
+
+#firstSection p{
+    font-family:'Gill Sans', 'Gill Sans MT', Times, 'Trebuchet MS', sans-serif;
+    text-decoration:double;
+    text-align: left;
+    color: rgb(78, 75, 75);
+    /* p1{
+    font-size:50px;} */
+      font-size:20px;
+}
+
+#firstSection p::first-letter{
+    font-size: 200%;
+}
+
+section.section1 h2{
+    font-size: 40px;
+    color: rgb(124, 31, 10);
+    font-family: 'Gill Sans', 'Gill Sans MT', Times, 'Trebuchet MS', sans-serif;
+}
+section.section2 h2{
+    font-size: 40px;
+    /* text-decoration-color: cadetblue"; */
+    color: rgb(124, 31, 10);
+    font-family: 'Gill Sans', 'Gill Sans MT', Times, 'Trebuchet MS', sans-serif;
+}
+section.section2 p{
+    font-size: 20px;
+    /* text-decoration-color: cadetblue"; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Times, 'Trebuchet MS', sans-serif;
+    color: rgb(78, 75, 75);
+}
+
+section.section2 ul{
+    font-size: 20px;
+    /* text-decoration-color: cadetblue"; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Times, 'Trebuchet MS', sans-serif;
+    color: rgb(78, 75, 75);
+}
+
+#initIdea p{
+    font-family:'Gill Sans', 'Gill Sans MT', Times, 'Trebuchet MS', sans-serif;
+    font-size:20px;
+    color: rgb(78, 75, 75);
+}
+
+#navigation {
+	opacity:0.8;
+	position: fixed;
+	top: 0;
+	background-color: rgb(102, 39, 14);
+	padding: 15px 15px;
+	z-index: 100;
+	width: 100%;
+}
+
+#navigation li {
+	padding: 0 10px;
+}
+
+#navigation li a {
+	color: white;
+}
+
+#navigation li a:hover {
+	color: grey;
+}
+
+.navbar-brand {
+	color: white;
+}
+
+.navbar-toggler {
+	background: url(../images/menu.png) center center no-repeat;
+	background-size: 70%;
+}
+.pics_init{
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+
+.pics_final{
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+
+.PictureDiv{
+    padding-top: 20px;
+}
+
+.PictureDiv::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.PictureDiv img{
+    display: block;
+    width: 180px;
+    height: 350px;
+}
+
+.PictureDiv figcaption{
+    font-size: 100%;
+    color: rgb(34, 109, 139)
+}
+
+.sketches-pics {
+    text-align: center;
+}
+
+.sketches-pics img{
+    display: inline-block;
+    height: 345px;
+    width: auto;
+    max-width: 90vw;
+}
+
+.users-pics {
+    text-align: center;
+}
+
+.users-pics img{
+    display: inline-block;
+    height: auto;
+    width: 80vw;
+    max-width: 1000px;
+}
+
+.personas img{
+    display: block;
+    height: 300px;
+    width: auto;
+    padding: 5px
+}
+
+footer {
+    padding: 20px 0;
+    background-color: rgb(102, 39, 14);
+    color: white;
+    text-align: center;
+}
+
+.github-img {
+        margin: 10px 10px;
+        width: 40px;
+        height: 40px;
+        color: white;
+}
+
+.github {
+    padding-bottom: 10px;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: grey;
+}
+
+.center {
+    text-align: center;
+}
+
+.cell {
+    display:table-cell;
+    text-align: center;
+}
